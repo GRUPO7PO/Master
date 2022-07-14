@@ -4,7 +4,7 @@
  */
 
 package com.mycompany.grupo7;
-
+//Importacion de subclases
 import helpers.Doctor;
 import helpers.Deportista;
 
