@@ -5,8 +5,8 @@
 
 package com.mycompany.grupo7;
 
-import helpers.Deportista;
 import helpers.Doctor;
+import helpers.Deportista;
 
 
 /**
