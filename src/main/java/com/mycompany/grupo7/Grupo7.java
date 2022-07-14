@@ -5,14 +5,32 @@
 
 package com.mycompany.grupo7;
 
-
+import helpers.Deportista;
+import helpers.Doctor;
 
 
 /**
  *
  * @author Marlon Galo
  */
-public class Grupo7 
+public class Grupo7 {
 
-        /*    public static void main(String[] args) {
-        }*/
+    public static void main(String[] args) {
+       //Instanciar
+       Deportista deportista = new Deportista();
+       Doctor doctor =new Doctor();
+       
+       //llamando por herencia a los atributos privados de la superclase persona atravez de la subclase Deportista
+       System.out.println("\nInformacion General del Deportista");
+       deportista.setDeporte("Futbol");
+       deportista.mostrarDatos();
+       deportista.mostrarDeporte();
+   
+       //llamando por herencia a los atributos privados de la superclase persona atravez de la subclase Doctor
+       System.out.println("\nInformacion General del Doctor");
+       doctor.mostrarDatos();
+       doctor.setEspecialidad("Pediatria");
+       doctor.MostrarEspecialidad();
+       
+    }
+}
