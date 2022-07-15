@@ -12,7 +12,7 @@ public class Deportista extends Persona{
     //Declaracion de atributo deporte
     private String deporte;
 
-    
+    //Constructor
     public Deportista() {
         establecerNombre("Oscar");
         establecerApellido("Fusser");

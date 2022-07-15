@@ -9,6 +9,7 @@ package helpers;
  * @author Maria Jose
  */
 
+//Constructor
 public class Doctor extends Persona {
     //Declaracion de atributos
     public String especialidad;
