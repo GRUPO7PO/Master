@@ -6,7 +6,7 @@ package helpers;
 
 /**
  *
- * @author Marlon Galo
+ * @author Maria Jose
  */
 public class Doctor extends Persona {
     //Declaracion de atributos
