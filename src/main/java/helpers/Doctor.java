@@ -12,7 +12,6 @@ public class Doctor extends Persona {
     //Declaracion de atributos
     public String especialidad;
 
-    //Constructor
 public Doctor(){
    establecerNombre("Luis");
    establecerApellido("Fitzgerald");
